@@ -1,5 +1,5 @@
 {
-  "name": "hw",
+  "name": "brayden-todo-cli",
   "version": "1.0.0",
   "description": "to do list on command line",
   "main": "index.js",
@@ -8,7 +8,11 @@
   },
   "author": "braydenrobbins",
   "license": "ISC",
+  "bin": {
+    "btd": "index.js"
+  },
   "dependencies": {
     "commander": "^2.19.0"
-  }
+  },
+  "devDependencies": {}
 }
